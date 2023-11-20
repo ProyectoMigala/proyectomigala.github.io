@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<div id="post-index2" class="container2">
+  {{ partial "intro.html" . }}
+
+  <div class="relative">
+    <!-- Video container with loop attribute -->
+    <video autoplay loop muted class="object-cover w-full h-full">
+      <source src="/videos/LoopPARTIDO_1.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay with text and button -->
+    <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
+      <h1 class="text-4xl font-bold mb-4">Proyecto Migala</h1>
+      <p class="text-lg mb-6">Ciencia, Tierra y Libertad</p>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        REGISTRATE
+      </button>
+    </div>
+  </div>
+
+</div>
+
+{{ partial "footer.html" . }}
