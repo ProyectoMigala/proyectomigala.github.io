@@ -21,14 +21,11 @@ permalinks:
 
 menu:
   main:
-    - name: Blog
-      url: /
+    - name: Sobre el proyecto
+      url: /page/proyecto
       weight: 1
-    - name: Proyectos
-      url: /proyectos/
-      weight: 2
-    - name: Nosotros
-      url: /nosotros/
+    - name: Horizontalidad
+      url: /page/horizontalidad
       weight: 4
 
 site:

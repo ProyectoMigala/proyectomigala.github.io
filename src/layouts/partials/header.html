@@ -33,12 +33,12 @@
         {{ template "_internal/google_analytics.html" . }}
 
         <div id="wrapper">
-            <header class="h-20 flex flex-col justify-center">
+            <header class="h-20 flex flex-col justify-center border-b border-gray-200">
                 <div class="flex flex-row justify-between mx-4">
                     <div class="flex flex-row">
                         {{ with .Site.Params.logo }}
                         <a class="w-8 h-8" href="/">
-                            <img src="{{ . }}" alt="{{ . }}" class="object-cover w-full h-full rounded-full" />
+                            <img src="/{{ . }}" alt="{{ . }}" class="object-cover w-full h-full rounded-full" />
                         </a>
                         {{ else }}
                         <h1 class="site-title">

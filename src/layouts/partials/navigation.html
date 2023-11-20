@@ -1,0 +1,6 @@
+{{ range .Site.Menus.main.ByWeight }}
+<li class="mr-1">
+    <a href="{{ .URL }}" class="px-4 py-4 hover:text-gray-600 transition duration-300 delay-150 hover:delay-300">{{
+        .Name }}</a>
+</li>
+{{ end }}
