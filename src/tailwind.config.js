@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./layouts/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'migala': '#5b0089'
+      }
+    },
   },
   plugins: [],
 }

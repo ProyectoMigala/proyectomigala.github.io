@@ -33,11 +33,11 @@
         {{ template "_internal/google_analytics.html" . }}
 
         <div id="wrapper">
-            <header class="h-20 flex flex-col justify-center border-b border-gray-200">
+            <header class="h-24 flex flex-col justify-center border-b border-gray-200">
                 <div class="flex flex-row justify-between mx-4">
                     <div class="flex flex-row">
                         {{ with .Site.Params.logo }}
-                        <a class="w-8 h-8" href="/">
+                        <a class="w-12 h-12" href="/">
                             <img src="/{{ . }}" alt="{{ . }}" class="object-cover w-full h-full rounded-full" />
                         </a>
                         {{ else }}
@@ -93,10 +93,54 @@
                         {{ end }}
                     </div>
 
-                    <ul class="flex flex-row">
+                    <!-- Responsive Menu Button -->
+                    <div class="md:hidden">
+                        <button id="menu-toggle" class="py-1 text-black focus:outline-none">
+                            <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Navigation links (hidden on small screens) -->
+                    <ul class="hidden md:flex flex-row space-x-4">
                         {{ partial "navigation.html" . }}
                     </ul>
                 </div>
             </header>
+
+            <!-- Mobile Menu (initially hidden) -->
+            <div id="mobile-menu-container" class="lg:hidden fixed inset-0 bg-white bg-opacity-90 z-50 hidden">
+                <div class="flex justify-end p-6">
+                    <button id="close-menu" class="text-black focus:outline-none">
+                        <svg class="h-12 w-12 py-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Mobile Navigation links -->
+                <ul class="flex flex-col items-center space-y-4">
+                    {{ partial "navigation.html" . }}
+                </ul>
+            </div>
+            <script>
+                // JavaScript to toggle the mobile menu visibility
+                const menuToggle = document.getElementById('menu-toggle');
+                const mobileMenu = document.getElementById('mobile-menu-container');
+                const closeMenuButton = document.getElementById('close-menu');
+
+                menuToggle.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                closeMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            </script>
 
             <div id="container">
