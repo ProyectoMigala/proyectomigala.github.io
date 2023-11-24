@@ -74,7 +74,7 @@
         Aquí puedes leer este progreso.</p>
     </div>
     <div class="">
-      <div class="w-4/5 max-w-[60rem] mx-auto mx-auto pb-1">
+      <div class="w-4/5 max-w-[60rem] mx-auto pb-1">
         <ol class="grid grid-cols-1 md:grid-cols-3 gap-6">
           {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
           {{ range $pag.Pages }}
@@ -83,7 +83,7 @@
         </ol>
       </div>
       <div class="flex flex-row justify-center w-4/5 max-w-[60rem] mx-auto space-x-4 pt-6 pb-8">
-        <a href="">
+        <a href="/post">
           <button
             class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
             LEER MÁS

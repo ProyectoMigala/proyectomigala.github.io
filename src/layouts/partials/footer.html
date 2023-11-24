@@ -1,0 +1,21 @@
+</div>
+</div>
+
+<footer class="footer bg-gray-800 text-white py-8">
+    <div class="grid grid-cols-1 w-4/5 max-w-[60rem] mx-auto">
+        <div class="site-title-wrapper">
+            <h1 class="pb-4 text-center text-lg font-semibold">
+                <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            </h1>
+        </div>
+
+        <p class="text-center">
+            <span>&copy; {{ .Site.LastChange.Format "2006" }} / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+        </p>
+    </div>
+</footer>
+
+{{ partial "extra-in-foot.html" . }}
+</body>
+
+</html>
