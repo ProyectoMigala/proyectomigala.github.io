@@ -1,0 +1,28 @@
+{{ $category := index (.Params.categories) 0 | default "sin-categoria" }}
+<li class="p-4 bg-white" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <a href="{{ .Permalink }}" itemprop="url">
+    <h4 class="font-semibold" itemprop="name">{{ .Title }}</h4>
+    <time class="post-stub-date" datetime="{{ .Date.Format " 2006-01-02" }}">
+      Published {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}
+    </time>
+    {{ if .Description }}
+    <p class="post-stub-description">{{ .Description }}</p>
+    {{ end }}
+
+    <p class="">
+      {{ .Params.author | default "Anon" }}
+      |
+      <a href="{{relURL (print " /categories/" $category | urlize)}}">
+        {{ index (.Params.categories) 0 | default "Sin categoria" }}
+      </a>
+      <!-- {{ with .Params.categories }}
+      {{ range first 1 . }}
+      <a href="{{ relURL (print " /categories/" . | urlize) }}">{{ . }}</a>
+      {{ end }}
+      {{ else }}
+      <a>{{ default "" .Site.Params.text.uncategorized }}</a>
+      {{ end }} -->
+    </p>
+
+  </a>
+</li>

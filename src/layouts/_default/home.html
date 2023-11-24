@@ -3,9 +3,10 @@
 <div id="post-index2" class="container2">
   {{ partial "intro.html" . }}
 
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <!-- Video container with loop attribute -->
-    <video autoplay loop muted class="object-cover w-full h-full">
+    <video autoplay loop muted
+      class="relative top-1/2 left-1/2 -translate-x-1/2 md:translate-x-0 md:static object-cover w-full h-full min-w-[580px]">
       <source src="/videos/LoopPARTIDO_1.webm" type="video/webm">
       Your browser does not support the video tag.
     </video>
@@ -14,11 +15,83 @@
     <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white">
       <h1 class="text-4xl font-bold mb-4">Proyecto Migala</h1>
       <p class="text-lg mb-6">Ciencia, Tierra y Libertad</p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <button
+        class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
         REGISTRATE
       </button>
     </div>
   </div>
+
+  <section class="bg-main-bg text-white">
+    <div class="w-4/5 max-w-[60rem] mx-auto pt-32 pb-16">
+      <h1 class="mb-4 text-center text-4xl font-bold">Una revolución global, orgullosamente mexicana</h1>
+      <p class=" mb-6 text-center text-lg">Más que un partido, somos una alianza de personas con ganas de cambiar al
+        mundo. La política es sólo otra herramienta.</p>
+    </div>
+    <div class="">
+      <div class="h-96 max-w-[60rem] mx-auto pb-1">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/MYrFQLxvpzA?si=L4U8pxOQo0JDLHFA"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-main-bg text-white">
+    <div class="w-4/5 max-w-[60rem] mx-auto pt-32 pb-8">
+      <h1 class="mb-4 text-justify text-4xl font-bold">¿Dónde nos organizamos?</h1>
+      <p class=" mb-6 text-justify text-lg">Estas son nuestras redes: llenas de gente bien informada y organizada, con
+        ganas de ser el cambio que quieren ver en el mundo. Quien pueda admirar a esta comunidad de valientes sin sentir
+        esperanza por el futuro, es que ha muerto por dentro.</p>
+    </div>
+    <div class="flex flex-row justify-evenly w-4/5 max-w-[60rem] mx-auto space-x-4 pb-8">
+      <a href="">
+        <button
+          class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
+          Telegram
+        </button>
+      </a>
+      <a href="">
+        <button
+          class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
+          Notion
+        </button>
+      </a>
+      <a href="">
+        <button
+          class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
+          Youtube
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section class="bg-main-bgw text-black">
+    <div class="w-4/5 max-w-[60rem] mx-auto pt-32 pb-8">
+      <h1 class="mb-4 text-center text-4xl font-bold">Blog</h1>
+      <p class=" mb-6 text-center text-lg">Migala es un movimiento de ideas, por eso está en constante transformación.
+        Aquí puedes leer este progreso.</p>
+    </div>
+    <div class="">
+      <div class="w-4/5 max-w-[60rem] mx-auto mx-auto pb-1">
+        <ol class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+          {{ range $pag.Pages }}
+          {{ partial "post-stub.html" . }}
+          {{ end }}
+        </ol>
+      </div>
+      <div class="flex flex-row justify-center w-4/5 max-w-[60rem] mx-auto space-x-4 pt-6 pb-8">
+        <a href="">
+          <button
+            class="bg-gray-800 hover:bg-migala text-white font-bold py-2 px-4 rounded transition duration-300 delay-150 hover:delay-300">
+            LEER MÁS
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
 
 </div>
 

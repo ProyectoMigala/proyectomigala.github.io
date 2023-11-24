@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'migala': '#5b0089'
+        'migala': '#5b0089',
+        'main': {
+          'bg': '#0a0000',
+          'bgw': '#f8f8f8'
+        }
       }
     },
   },
