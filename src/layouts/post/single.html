@@ -1,0 +1,155 @@
+{{ define "main" }}
+
+<article class="post-container">
+  <section id="main" class="blog-post">
+    <h1 id="title" class="title">{{ .Title }}</h1>
+    <div class="metadata-card">
+      <p>Author: {{ .Params.Author }} | {{ .Date.Format "Mon Jan 2, 2006" }}</p>
+      {{ with .GetTerms "categories" }}
+      <ul id="categories">
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    <div>
+      <article id="content">
+        {{ .Content }}
+      </article>
+    </div>
+  </section>
+
+  <aside id="meta">
+    {{ with .GetTerms "tags" }}
+    <ul id="tags">
+      {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    <div>
+      {{ with .PrevInSection }}
+      <a class="previous" href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+      <a class="next" href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+      {{ end }}
+    </div>
+  </aside>
+</article>
+
+<style>
+  /* Blog post styles */
+
+  .blog-post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Title */
+
+  .blog-post h1 {
+    font-size: 2.5em;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  /* Content */
+
+  .blog-post p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+
+  /* Links */
+
+  .blog-post a {
+    color: #5b0089;
+    text-decoration: none;
+  }
+
+  .blog-post a:hover {
+    text-decoration: underline;
+  }
+
+  /* Code */
+
+  .blog-post pre {
+    background-color: #f8f8f8;
+    margin-bottom: 1rem;
+    padding: 10px;
+    overflow: auto;
+  }
+
+  .blog-post code {
+    font-family: 'Courier New', monospace;
+  }
+
+  /* Lists */
+
+  .blog-post ol,
+  .blog-post ul {
+    margin-bottom: 15px;
+  }
+
+  .blog-post li {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Images */
+
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  /* Card container for metadata */
+  .metadata-card {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  /* Author and date styles */
+  .metadata-card p {
+    margin-bottom: 1px;
+    line-height: 1.8;
+  }
+
+  /* Category and tags styles */
+  .metadata-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: -5px;
+  }
+
+  .metadata-card li {
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+  /* Add separators between category and tags */
+  .metadata-card li:not(:last-child)::after {
+    content: ',';
+    margin-left: 1px;
+    margin-right: 0px;
+    color: #aaa;
+  }
+
+  /* Customize as needed */
+</style>
+
+{{ end }}
