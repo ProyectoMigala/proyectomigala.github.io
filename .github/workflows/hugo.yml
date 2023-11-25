@@ -24,8 +24,8 @@ concurrency:
 # Default to bash
 defaults:
   run:
-    working-directory: src
     shell: bash
+    working-directory: ./src
 
 jobs:
   # Build job
