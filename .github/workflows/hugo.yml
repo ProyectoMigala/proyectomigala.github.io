@@ -24,15 +24,13 @@ concurrency:
 # Default to bash
 defaults:
   run:
+    working-directory: src
     shell: bash
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: src
     env:
       HUGO_VERSION: 0.114.0
     steps:
