@@ -1,12 +1,11 @@
 {{ partial "header.html" . }}
 
 <div id="post-index" class="container">
-    {{ partial "intro.html" . }}
 
     <ol class="post-list">
         {{ $pag := .Paginate .Pages }}
         {{ range $pag.Pages }}
-            {{ partial "page-stub.html" . }}
+        {{ partial "page-stub.html" . }}
         {{ end }}
     </ol>
 
