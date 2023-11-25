@@ -48,10 +48,10 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-        working-directory: src/
+        working-directory: ./src
       - name: Install Dependencies
         run: npm install
-        working-directory: src/
+        working-directory: ./src
       - name: Build with Hugo
         working-directory: ./src
         env:
