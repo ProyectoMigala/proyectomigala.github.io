@@ -15,7 +15,7 @@ params:
   dateFormat: "Mon, Jan 2, 2006"
 
 permalinks:
-  post: "/:year/:month/:day/:filename/"
+  post: "/posts/:filename/"
 
 menu:
   main:
