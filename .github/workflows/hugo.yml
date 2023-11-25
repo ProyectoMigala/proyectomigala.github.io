@@ -53,6 +53,7 @@ jobs:
         run: npm install
         working-directory: src/
       - name: Build with Hugo
+        working-directory: ./src
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -61,7 +62,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-        working-directory: src/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
