@@ -4,7 +4,14 @@
   <section id="main" class="blog-post">
     <h1 id="title" class="title">{{ .Title }}</h1>
     <div class="metadata-card">
-      <p>Author: {{ .Params.Author }} | {{ .Date.Format "Mon Jan 2, 2006" }}</p>
+      <p>Autor:
+        {{ if isset .Params "author" }}
+        {{ $author := index .Site.Data.authors .Params.Author }}
+        {{ (cond (le $author.name "") .Params.Author $author.name) }}
+        {{ else }}
+        Anon
+        {{ end }}
+        | {{ .Date.Format "Mon Jan 2, 2006" }}</p>
       {{ with .GetTerms "categories" }}
       <ul id="categories">
         {{ range . }}
