@@ -2,7 +2,7 @@
 title = "Pueblos Originarios"
 description = "Aquí también estamos nosotros: los miembros, hijos y nietos de las comunidades originarias, indígenas, equiparadas y afrodescendientes, aquí seguimos, pues, resistiendo transformándonos y aportando a nuestras comunidades."
 date = 2021-12-24T12:57:38-06:00
-author = ""
+author = "Anon"
 group = [""]
 categories = ["General"]
 tags = [""]

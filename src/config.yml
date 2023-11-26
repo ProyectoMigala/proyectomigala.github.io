@@ -11,16 +11,16 @@ params:
   headline: Proyecto Migala
   description: UNA REVOLUCIÓN GLOBAL, ORGULLOSAMENTE MEXICANA. Más que un partido, somos una alianza de personas con ganas de cambiar al mundo. La política es sólo otra herramienta.
   opengraph: true
-  logo: img/semilla.webp
-  dateFormat: "Mon, Jan 2, 2006"
+  logo: ./img/semilla.webp
+  dateFormat: "2.1.2006"
 
 permalinks:
   post: "/posts/:filename/"
 
 menu:
   main:
-    - name: Sobre el proyecto
-      url: /page/proyecto
+    - name: Redes Sociales
+      url: /page/redes-sociales
       weight: 1
     - name: Horizontalidad
       url: /page/horizontalidad

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html{{ if .Site.Params.opengraph }} prefix="og: http://ogp.me/ns#" {{ end }}>
+<html{{ if .Site.Params.opengraph }} prefix="og: http://ogp.me/ns#" {{ end }}
+    style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
 
     <head>
         <meta charset="utf-8">
@@ -32,6 +33,7 @@
             href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap" rel="stylesheet">
         {{ if .OutputFormats.Get "RSS" }}
         <link href="{{ with .OutputFormats.Get " RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate"
             type="application/rss+xml">
@@ -45,7 +47,7 @@
     <body>
         {{ template "_internal/google_analytics.html" . }}
 
-        <div id="wrapper">
+        <div id="wrapper" class="min-h-screen">
             <header class="h-24 flex flex-col justify-center border-b border-gray-200">
                 <div class="flex flex-row justify-between mx-4">
                     <div class="flex flex-row">

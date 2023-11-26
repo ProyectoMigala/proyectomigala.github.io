@@ -10,6 +10,6 @@
   "scripts": {
     "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css",
     "watch": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --watch",
-    "server": "hugo server && npm run watch"
+    "server": "hugo server"
   }
 }
