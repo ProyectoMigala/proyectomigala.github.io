@@ -2,7 +2,23 @@
 
 Va a ser el primer acercamiento con la ciudadanía que no sabe nada del proyecto ni de @revista migala. Debe expresar formalidad y seguridad ante otras organizaciones de cualquier índole.
 
-## Requisitos
+## Como contribuir
+
+### Requisitos
+- Nodejs y npm
+- Hugo
+
+### Empezar
+
+1. Clonar el repositorio.
+2. Ir a la carpeta "/src" ``cd src``.
+3. Instalar las dependencias ``npm install``
+4. Iniciar tailwind en modo desarrollo ``npm run watch`` (se requiere para generar el documento ``./assets/css/styles.css``).
+4. Abrir otro apartado de la terminal.
+5. Iniciar el servidor ``hugo server``.
+6. ¡Listo!
+
+## Propósito general de la pagina
 
 - Espacio para realizar publicaciones de cuestiones relevantes para el proyecto.
 - Que múltiples ramas de proyecto puedan realizar publicaciones.
