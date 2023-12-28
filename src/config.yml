@@ -25,6 +25,9 @@ menu:
     - name: Horizontalidad
       url: /page/horizontalidad
       weight: 4
+    - name: Reglamento
+      url: /page/reglamento
+      weight: 8
 
 site:
   author:
