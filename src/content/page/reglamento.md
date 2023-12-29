@@ -1,20 +1,22 @@
 +++
 title = "Reglamento"
-date = 2023-12-28T02:13:50Z
-author = "jm (José Manuel LH)"
+date = 2023-09-16T02:13:50Z
+author = "Proyecto Migala"
 description = "Reglamento Nacional PM V3.0"
 +++
 
-REGLAMENTO NACIONAL 
+# REGLAMENTO NACIONAL 
                                                                         última modificación 16-09-2023
 
 
 REGLAMENTO NACIONAL DEL PROYECTO MIGALA
-TÍTULO PRIMERO
+
+
+## TÍTULO PRIMERO
 De las generalidades
 
 
-Capítulo I 
+### Capítulo I 
 Objeto del reglamento
 
 
@@ -24,7 +26,7 @@ Artículo 1.- El presente reglamento es de orden público y observancia general 
 Lo señalado en el presente artículo es de cumplimiento obligatorio para toda persona que forme parte de Proyecto Migala, así como invitados.
 
 
-Capítulo II
+### Capítulo II
 Principios del reglamento 
 
 
@@ -61,7 +63,7 @@ Transparencia; Se debe buscar la máxima revelación de información, mediante l
 Fundar y Motivar; Toda resolución emitida dentro del Proyecto Migala deberá expresar los preceptos aplicables al asunto motivo del acto y las circunstancias especiales, razones particulares o causas inmediatas que se hayan tenido en consideración para el actuar.
 
 
-Capítulo III
+### Capítulo III
 Glosario
 
 
@@ -87,7 +89,7 @@ Comité; Son los grupos de organización interna del Proyecto Migala, existen pa
 16. Documento editable; archivo que permita ser modificado sin procedimientos extras, después de ser abierto en algún dispositivo digital.
 
 
-Capítulo IV
+### Capítulo IV
  Requisitos y Obligaciones para formar parte al Proyecto Migala
 
 
@@ -135,13 +137,13 @@ Artículo 8.- Todos los miembros del Proyecto Migala tendrán la obligación de 
 Artículo 9.-  Las personas que no cuenten con la nacionalidad mexicana se les permitirá la entrada al Proyecto Migala en sus redes, únicamente como oyente teniendo posibilidad de opinar, sin contar con la posibilidad de incidir internamente. 
 
 
-TITULO SEGUNDO
+## TITULO SEGUNDO
 De los documentos básicos
 
 
-Capítulo I
+### Capítulo I
 Generalidades
-Artículo 10.- Los documentos básicos del Proyecto Migala son El Reglamento, El Manifiesto y La Ruta Crítica.  Estos determinarán la línea ideológica, los fines y acciones que desarrollaremos como Proyecto Migala y sientan las bases generales de acción así como nuestra estructura operativa .
+Artículo 10.- Los documentos básicos del Proyecto Migala son El Reglamento, El Manifiesto y La Ruta Crítica.  Estos determinarán la línea ideológica, los fines y acciones que desarrollaremos como Proyecto Migala y sientan las bases generales de acción así como nuestra estructura operativa.
 
 
 El Manifiesto es la declaración pública de principios, ideología e intenciones oficiales del Proyecto Migala.
@@ -153,12 +155,12 @@ El Reglamento es una normativa general de aplicación para todos los miembros de
 La Ruta Crítica es la serie de tareas o acciones que se tomarán para llegar a materializar lo dicho en manifiesto y reglamento.
 
 
-TÍTULO TERCERO
+## TÍTULO TERCERO
 Organización y funciones del Proyecto Migala
 
 
-Capítulo I
- Estructura
+### Capítulo I
+Estructura
 
 
 Artículo 11.- El Proyecto Migala se conforma de diversas Áreas y Comisiones, cuya finalidad es la organización horizontal, democrática y plural; que cuenta con la facilidad de participación de los miembros.
@@ -233,7 +235,7 @@ Artículo 20.- Todos los integrantes del Proyecto Migala podrán unirse a cualqu
 Artículo 21.- Los miembros del Proyecto Migala no podrán ser titulares de más de un Órgano. 
 
 
-Capítulo II 
+### Capítulo II 
 Área de Dirección
 
 
@@ -340,7 +342,7 @@ Artículo 42.- Serán apoyo administrativo y asesores para las comisiones estata
 
 
 
-Capítulo III
+### Capítulo III
 Área de Formación
 
 
@@ -390,7 +392,7 @@ Los talleres que no sean contemplados para la Escuela de Cuadros esta mesa traba
 Artículo 48.- El Comité de estudios políticos y sociales, se encargará del análisis y debate de distintas obras de cualquier medio que sean aplicables y útiles para la formación de los miembros del proyecto, el cual se llevará a cabo en conjunto con el Club de Lecturas del grupo temático de Arte y Cultura.
 
 
-Capítulo IV 
+### Capítulo IV 
 Área de Administración 
 
 
@@ -445,7 +447,7 @@ Artículo 54.- La Comisión de Coordinación y Seguimiento tendrá como función
 En caso de considerarlo necesario la coordinación de administración podrá solicitar el resurgimiento de esta comisión. 
 
 
-Capítulo V
+### Capítulo V
 Área de Transparencia
 
 
@@ -462,7 +464,7 @@ Artículo 56.- El Comité de Transparencia será el encargado de transparentar l
 Artículo 57.- Lupa Ciudadana es el grupo enfocado en la realización de solicitudes de información hacia otros sujetos obligados, además servirá como un lugar para fomentar y aprender acerca de transparencia, protección de datos personales y Participación Ciudadana, además podrá cooperar en materia de Participación Ciudadana con el Área de Político-Electoral.
 
 
-Capítulo VI
+### Capítulo VI
 Área de Contraloría 
 
 
@@ -485,7 +487,7 @@ Artículo 61.- El Comité de Investigación será el encargado de recopilar las 
 Artículo 62.- El Comité Sancionador tendrá la facultad de sancionar a los miembros que posean una titularidad dentro del Proyecto Migala que hayan cometido una falta a las normativas que rigen al mismo.
 
 
-Capítulo VII
+### Capítulo VII
 Área de Comunicación y Propaganda
 
 
@@ -514,7 +516,7 @@ El contenido que produzca ésta Mesa no puede ir en contra de lo estipulado en e
 Artículo 67.- Mesa de Diseño Multimedia se encargará de la creación y apoyo en el diseño de contenido multimedia para proyecto migala en general, asesorías para grupos en específico que requieran aprender a crear contenido multimedia a petición de parte, además de plantillas que guarden relación con los Manuales de Identidad del Proyecto Migala, así como, apoyo a la Coordinación General de Propaganda e Imagen para llevar a cabo sus facultades, por último, creación y modificación de los manuales de identidad.
 
 
-Capítulo VIII
+### Capítulo VIII
 Área de Informática 
 
 
@@ -560,7 +562,7 @@ Artículo 75.- La Mesa de administradores será la responsable de tener la poses
 Artículo 76.- El Padrón de Patrocinadores será el registro de quienes entregarán los recursos para mensualidades, pagos únicos de dueño, así como renovaciones o rentas de cuentas sociales y difusión, en caso de que no haya ingresos suficientes en el proyecto migala y éstas personas estén dispuestas a aportarlos sin esperar reembolso. 
 
 
-Capítulo IX
+### Capítulo IX
 Área Político Electoral
 
 
@@ -579,7 +581,7 @@ Artículo 80.- El comité político electoral será el encargado de realizar las
 Artículo 81.- El comité político electoral servirá como un lugar para fomentar y aprender acerca de Participación Ciudadana, además podrá cooperar con el Área de Transparencia en dicha materia. 
 
 
-Capítulo X
+### Capítulo X
 Área Financiera
 
 
@@ -614,7 +616,7 @@ Artículo 87.- El Comité de glosa tendrá la función de promover la creación 
 Artículo 88.- El Comité de proveeduría se encargará de llevar a cabo un padrón de todos y cada uno de los bienes muebles e inmuebles que pertenezcan a Proyecto Migala. Además, podrá solicitar cualquier tipo de comprobante financiero a cualquier Grupo del Proyecto Migala al que se le haya otorgado recursos con un fin específico.
 
 
-Capítulo XI
+### Capítulo XI
 Área Legal
 
 
@@ -638,7 +640,7 @@ Artículo 91.- El Grupo de Estatutos y Reglamentos se encargaran de la creación
 Artículo 92.- El Comité de Sociedades, Cooperativas y Sindicatos, será encargado de estudiar, asesorar y facilitar la creación y capacitación para formar Fundaciones, Asociaciones, Cooperativas y Sindicatos, además de darles seguimiento.
 
 
-Capitulo XII
+### Capitulo XII
 Área de Diálogo y Arbitraje
 
 
@@ -659,7 +661,7 @@ Artículo 95.- El comité de Arbitraje y Sanciones, se encargará en las situaci
 Artículo 96.- El Grupo de Investigación será el responsable de recabar los hechos y pruebas de los procedimientos del comité de Arbitraje y Sanciones.
 
 
-Capítulo XIII
+### Capítulo XIII
 Comisiones Estatales 
 
 
@@ -734,7 +736,7 @@ Artículo 109.- Requisitos para conformar una comisión temática serán los sig
 Artículo 110.- Las comisiones temáticas tendrán las mismas obligaciones y responsabilidades que los grupos estatales, con excepción de los requisitos. 
 
 
-Capítulo XV
+### Capítulo XV
 Grupos Transversales
 
 
@@ -762,18 +764,18 @@ Artículo 112.- Los requisitos para conformar un Grupo transversal serán los si
 Artículo 113.- Los Grupos Transversales tendrán las mismas obligaciones y responsabilidades que los grupos estatales, con la excepción de los requisitos y del principio de paridad de género.
 
 
-TITULO CUARTO 
+## TITULO CUARTO 
 Sesiones, Conversatorios y Cualquier tipo de reunión 
 
 
-Capítulo I
+### Capítulo I
 Generalidades
 
 
 Artículo 114.- En lo que corresponde a todo tipo de reuniones presenciales o virtuales,  los órganos tendrán que estar apegados a las disposiciones de este Título, además de generar el procedimiento en sus reglamentos individuales.
 
 
-Capítulo II
+### Capítulo II
 De las Sesiones Ordinarias y Extraordinarias en lo general
 
 
@@ -801,7 +803,7 @@ Para considerar formal y oficial una sesión se requiere como mínimo que:
    7. Y demás requisitos que consideren en sus reglamentos internos.
 
 
-Capítulo III
+### Capítulo III
 De las Sesiones Ordinarias 
 
 
@@ -819,7 +821,7 @@ Artículo 117.- Las Sesiones Ordinarias principalmente versarán de los siguient
    6.  Ruta Crítica;
    7.  Destitución de uno o varios titulares.
  
-Capítulo IV
+### Capítulo IV
 De las Sesiones Extraordinarias 
 
 
@@ -829,7 +831,7 @@ Artículo 118.- Las Sesiones Extraordinarias son las reuniones, cuyo contenido N
 Artículo 119.- Las Sesiones Extraordinarias únicamente versarán en aquellos temas que no estén señalados en las sesiones ordinarias. 
 
 
-Capítulo V
+### Capítulo V
 De las Reuniones de trabajo
 
 
@@ -837,7 +839,9 @@ Artículo 120.- Dentro de las reuniones de trabajo no se tomarán acuerdos, sino
 
 
 Artículo 121.- No será necesario grabar las reuniones de trabajo pues al no generarse acuerdos no posee el carácter de público, sin embargo, las reuniones de trabajo deberán estar abiertas para todos los integrantes del órgano.
-Capítulo VI
+
+
+### Capítulo VI
 Conversatorios
 
 
@@ -853,11 +857,11 @@ Artículo 124.- Los Conversatorios deberán ser Públicos y contar con un orden 
 Artículo 125.- Se deberá de realizar un flyer que tendrá que publicarse en los telegramas oficiales de cada órgano. En caso de ser de participación nacional será obligatorio mandarlo al bot de los chat de avisos nacionales. 
 
 
-TÍTULO QUINTO
+## TÍTULO QUINTO
 De las votaciones y formas de tomar acuerdos 
 
 
-Capítulo I
+### Capítulo I
 Sobre la toma de Acuerdos
 
 
@@ -870,7 +874,7 @@ Artículo 127.- En caso de la toma de decisiones de los Órganos del Proyecto Mi
 Artículo 128.- Los acuerdos o decisiones deberán ser tomadas en sesión presencial o virtual,  cumpliendo con todos los requisitos del Título III. 
 
 
-Capítulo II
+### Capítulo II
 De las Votaciones
 
 
@@ -904,11 +908,11 @@ II. Votaciones Largas; Son aquellas que tendrán una duración de cinco a siete 
 Artículo 132.- El responsable de generar las votaciones deberá de ser elegido por los mismos afiliados de los grupos.
 
 
-TÍTULO SEXTO
+## TÍTULO SEXTO
 De la Información Generada y Recabada
 
 
-Capítulo I
+### Capítulo I
 Qué Documentos se generan
 
 
@@ -941,7 +945,7 @@ Artículo 134.- La información que no es pública es aquella que sea utilizada 
 Artículo 135.- Aquella información que sea compartida por agentes externos al proyecto migala deberá indicarlo en el lugar que lo comparte, además no podrá realizarlo de forma reiterada para evitar spam de propaganda de otras organizaciones.
 
 
-Capítulo II 
+### Capítulo II 
 Del Almacenamiento
 
 
@@ -966,11 +970,11 @@ Artículo 139.- Las comisiones estatales pueden tener su propio youtube cuya pro
 Artículo 140.- Los grupos podrán almacenar su información tanto la que es o no pública en dispositivos de almacenamiento físico, sin embargo deberán estar alineados a los lineamientos de protección de información que señale estrategia digital, los lineamientos de protección de datos personales y sensibles emitido por el área de transparencia, así como, los reglamentos internos de los grupos. 
 
 
-TÍTULO SÉPTIMO 
+## TÍTULO SÉPTIMO 
  Conductas Prohibidas y Sanciones
 
 
-Capítulo I
+### Capítulo I
 Las Conductas Prohibidas
 
 
@@ -1019,7 +1023,7 @@ Serán competencia del Área de Diálogo y Arbitraje:
    22. Hacerse pasar por otro miembro del proyecto migala.
 
 
-Capítulo II
+### Capítulo II
 Las sanciones
 
 
@@ -1045,7 +1049,7 @@ Artículo 145.- En caso de querer reintegrarse o levantar la suspensión del Pro
 Artículo 146.-En el caso de que se cometa una afectación negativa a algún miembro o al mismo Proyecto Migala que no esté contemplado en éste reglamento, el Área de Diálogo y Arbitraje, y Contraloría, deberá resolver sobre el hecho, fundando y motivando cualesquiera sea su resolución
 
 
-Capítulo III
+### Capítulo III
 Del procedimiento sancionatorio 
 
 
@@ -1058,11 +1062,11 @@ Artículo 148.- Para llevar a cabo un proceso de sanción se deberá distinguir 
 Artículo 149.- El procedimiento deberá incluirse en los reglamentos del Área de Conciliación y Arbitraje, además de la Contraloría.
 
 
-TÍTULO OCTAVO
+## TÍTULO OCTAVO
 Sobre la Presentación de Proyectos y la Modificación del Reglamento 
 
 
-Capítulo I
+### Capítulo I
 Sobre la modificación y vigencia del reglamento 
 
 
@@ -1080,7 +1084,7 @@ Artículo 153.- Las reformas y nuevas normativas que genere el Proyecto Migala d
 Artículo 154.- El presente reglamento tendrá vigencia hasta la creación de la asociación civil que convierta el Proyecto Migala en partido por lo cual se sustituirá el presente reglamento por los estatutos.
 
 
-Capítulo II
+### Capítulo II
 Sobre el procedimiento de modificación de reglamento 
 
 
@@ -1099,7 +1103,7 @@ En caso de aprobar la modificación se deberá hacer llegar a la Coordinación G
 Artículo 156.- Cualquier afiliado del proyecto migala podrá presentar todas las propuestas de reforma que deseé, en caso de que se repitan y/o se relacionen se deberán de acumular en un solo procedimiento.
 
 
-Capítulo III
+### Capítulo III
 Sobre la Presentación de Proyectos y Propuestas
 
 
@@ -1143,7 +1147,7 @@ Artículo 161.- El procedimiento para la aprobación de las propuestas será el 
 Artículo 162.- En caso de Proyectos y Acuerdos estatales, ellos fijarán su método sin contravenir el Título Cuarto del presente Reglamento.
 
 
-TRANSITORIOS 
+## TRANSITORIOS 
 
 
 Primero. Para la primera vez que se valide este reglamento será mediante CPN2.0.
@@ -1209,12 +1213,6 @@ Capítulo II - Sobre el procedimiento de modificación de reglamento
 Capítulo III - Sobre la Presentación de Proyectos y Propuestas
 
 TRANSITORIOS 
-
-
-  
-
-
-
 
 
 CIENCIA, TIERRA Y LIBERTAD
