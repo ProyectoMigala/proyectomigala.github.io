@@ -28,6 +28,9 @@ menu:
     - name: Reglamento
       url: /page/reglamento
       weight: 8
+    - name: Comisiones
+      url: /page/comisiones
+      weight: 12
 
 site:
   author:

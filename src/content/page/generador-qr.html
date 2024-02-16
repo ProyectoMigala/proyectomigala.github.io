@@ -1,0 +1,36 @@
+---
+title: "generador qr"
+date: 2024-02-16T00:10:36-06:00
+author: "jm"
+draft: false
+---
+
+
+
+<div>
+    <div>
+        <ul>
+            <li><a href="/page/informatica">informatica</a>
+              <ul>
+                <li><a href="/page/programadores">programadores</a></li>
+              </ul>
+            </li>
+    </div>
+    <div>
+        <input type="text" name="" id="urlqr" placeholder="texto">
+        <button onclick="generar()">generar</button>
+        <div id="qrcode"></div>
+    </div>
+</div>
+
+
+<!-- javascript -->
+<div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        function generar() {
+            document.getElementById("qrcode").textContent = "";
+            new QRCode(document.getElementById("qrcode"), urlqr.value);
+        }
+    </script>
+</div>
