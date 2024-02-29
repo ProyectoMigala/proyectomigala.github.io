@@ -19,9 +19,6 @@ permalinks:
 
 menu:
   main:
-    - name: Redes Sociales
-      url: /page/redes-sociales
-      weight: 1
     - name: Horizontalidad
       url: /page/horizontalidad
       weight: 4
